@@ -8,7 +8,7 @@ This code is built upon PlatEMO v4.2 (https://github.com/BIMK/PlatEMO) to be ins
 ## Running Experiments
 Clone this repository and install the packages specified in requirements.txt in a Python environment<br />
 ```
-git clone https://github.com/oladayosolomon/MB-NSGA_II/
+git clone https://github.com/xxxxxxxxx/MB-NSGA_II/
 cd MB-NSGA_II
 pip install -r requirements.txt
 ```
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 Add the path of the environment to your MATLAB <br />
 
 ```
-pyenv("Version",'C:\Users\ecis\anaconda3\envs\RL_Bench\python.exe')
+pyenv("Version",'C:\Users\xxxxxxx\anaconda3\envs\envs_name\python.exe')
 
 ```
 
