@@ -1,5 +1,5 @@
 # RLXBench
-Requires python 3.9 and PlatEMO v4.2 (https://github.com/BIMK/PlatEMO). <br />
+This code is built upon PlatEMO v4.2 (https://github.com/BIMK/PlatEMO) and requires Python 3.9, as well as the Causal Learner: A Toolbox for Causal Structure and Markov Blanket Learning for MB Learning (https://github.com/z-dragonl/Causal-Learner). <br />
 Clone this repository and install the packages specified in requirements.txt <br />
 ```
 git clone https://github.com/oladayosolomon/RLXBench/
