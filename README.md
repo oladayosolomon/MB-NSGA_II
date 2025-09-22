@@ -1,5 +1,11 @@
-# RLXBench
+# MBDRL
+
+This repository contains the code and minimal instructions to reproduce the experiments reported in our AISTATS paper **"AISTATS-2026-265"**.
+
+## Requirements
 This code is built upon PlatEMO v4.2 (https://github.com/BIMK/PlatEMO) to be installed on MATLAB 2023 and above. It also requires Python 3.9, and the Causal Learner: A Toolbox for Causal Structure and Markov Blanket Learning for MB Learning (https://github.com/z-dragonl/Causal-Learner). <br />
+
+## Running Experiments
 Clone this repository and install the packages specified in requirements.txt in a Python environment<br />
 ```
 git clone https://github.com/oladayosolomon/MB-NSGA_II/
