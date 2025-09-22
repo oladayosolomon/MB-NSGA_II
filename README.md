@@ -1,24 +1,24 @@
 # RLXBench
-This code is built upon PlatEMO v4.2 (https://github.com/BIMK/PlatEMO) and requires Python 3.9, as well as the Causal Learner: A Toolbox for Causal Structure and Markov Blanket Learning for MB Learning (https://github.com/z-dragonl/Causal-Learner). <br />
-Clone this repository and install the packages specified in requirements.txt <br />
+This code is built upon PlatEMO v4.2 (https://github.com/BIMK/PlatEMO) to be installed on MATLAB 2023 and above. It also requires Python 3.9, and the Causal Learner: A Toolbox for Causal Structure and Markov Blanket Learning for MB Learning (https://github.com/z-dragonl/Causal-Learner). <br />
+Clone this repository and install the packages specified in requirements.txt in a Python environment<br />
 ```
-git clone https://github.com/oladayosolomon/RLXBench/
-cd RLXBench
+git clone https://github.com/oladayosolomon/MB-NSGA_II/
+cd MB-NSGA_II
 pip install -r requirements.txt
 ```
-For the reacher environment, you'll need to install pybullet-gym from https://github.com/benelot/pybullet-gym<br />
-```
-git clone https://github.com/benelot/pybullet-gym.git
-cd pybullet-gym
-pip install -e .
-```
-you should then copy the RL folder to the PlatEMO multi-objective problem directory and the mat_eval_env.py to the main PlatEMO directory (the one with the platemo.m file)<br />
 
-Path related information<br />
+
+Add the path of the environment to your MATLAB <br />
 
 ```
 pyenv("Version",'C:\Users\ecis\anaconda3\envs\RL_Bench\python.exe')
 
 ```
 
-create metric files for HV and Sparsity 
+Clone the Casual Learner toolbox from (https://github.com/z-dragonl/Causal-Learner) and add its path to MATLAB<br />
+
+Run the Platemo.m file from MATLAB and navigate to the experiment mode on the GUI. You can reproduce the experiments in this work by using the settings file in .\MB-NSGA_II\Data
+
+
+
+
